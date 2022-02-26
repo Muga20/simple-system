@@ -1,0 +1,119 @@
+.header-one{
+    position: relative;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #a43039;
+    box-sizing: border-box;
+    border-radius: 7px;
+    box-shadow: 0 5px 9px rgba(0,0,0,0.2);
+    height: 80px;
+   
+}
+.logo{
+    height: 60px;
+    font-size: 35px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    color:#feb213 ;
+
+}
+.logo-image{
+    height: 100px;
+    width: 100px;
+    margin: -20px 8%;
+    
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    text-decoration: none;
+}
+nav ul li a {
+    display:block;
+    margin: 10px 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    line-height: 12px;
+    border-radius: 6px;
+   
+   
+}
+nav ul li a.active,
+nav ul li a:hover{
+    background-color: #d64753;
+    color:#f2f8fb ;
+    transition: 0.8s;
+}
+
+.push{
+    padding-left: 400px;
+}
+.push-two{
+    padding-top: 56px;
+    padding-left: 130px;
+}
+.customer-heading-text{
+    font-size: 40px;
+    padding-left: 550px;
+}
+.customer-heading-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.input-one{
+    border-radius: 6px;
+    height: 29px;
+    border: 4px solid #ff8834;
+  }
+  .button-one{
+    background-color: #337eb7;
+    border: 4px;
+    height: 29px;
+  
+  }
+  .button-one:hover{
+    background-color: #f2406a;
+  }
+  .member-heading-text{
+    text-align: center;
+  }
+  .label-class{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+  }
+  .emoji{
+    text-align: center;
+    
+  }
+  .form {
+    max-width: 400px;
+    margin: auto;
+    padding: 32px 16px;
+    border: 5px solid #222b0055;
+    border-radius: 8px;
+    margin-top: 100px;
+    
+    
+}
+

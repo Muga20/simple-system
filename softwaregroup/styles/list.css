@@ -1,0 +1,43 @@
+.control-button.edit {
+    background-color: #00faaf;
+    color: #fff;
+}
+
+.control-button.delete {
+    background-color: darkorange;
+    color: #fff;
+}
+
+.control-button {
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.member-table td {
+    padding: 4px 8px;
+    max-width: 1080px;
+    border-radius: 9px;
+}
+
+.member-heading-text {
+    padding: 12px;
+    margin-top: 10px;
+}
+.input-labels{
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+}
+.input-labels{
+    width: 100px;
+    height: 35px;
+}
+.input-labels{
+    width: 100px;
+    width: 35px;
+    border-radius: 5px;
+}
