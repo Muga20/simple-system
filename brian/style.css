@@ -1,0 +1,133 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/*    👇👇👇👇👇           */
+/* Write your code below */
+/*    👇👇👇👇👇        */
+.header-one{
+    text-align: center;
+    margin-top:15px;
+}
+ul{
+    text-decoration: none;
+    display: flex;
+    margin-left: 350px;
+}
+ul li{
+    list-style-type: none;
+    padding: 15px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight:bold ;
+}
+.div-one{
+    font-weight: bold;
+    padding: 15px;
+}
+.one{
+    border: 1px solid rgb(210, 200, 200);
+    border-right: none;
+    border-left: none;
+    display: inline-flex;
+    height: 80px;
+    
+}
+.div-two{
+    border: 1px solid rgb(210, 200, 200);
+    height:80px;
+    width: 660px;
+}
+h3{
+padding-left: 500px;
+font-weight: lighter;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+padding-top: 21px;
+}
+.div-three{
+    border: 1px solid rgb(210, 200, 200);
+    height:80px;
+    width: 150px;   
+}
+.div-four{
+    border: 1px solid rgb(210, 200, 200);
+    height:80px;
+    width: 150px;
+}
+.div-five{
+    border: 1px solid rgb(210, 200, 200);
+    height:80px;
+    width: 150px;
+}
+.div-six{
+    border: 1px solid rgb(210, 200, 200);
+    height:80px;
+    width: 150px;
+}
+.div-seven{
+    border: 1px solid rgb(210, 200, 200);
+    height:80px;
+    width: 160px;
+    border-right: none;
+}
+h5{
+padding-left:50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+padding-top: -1px;
+}
+.hr{
+    border: 1px solid rgb(210, 200, 200);
+
+}
+.image{
+    display: flex;
+    padding-top: 50px;
+}
+.image-one{
+    padding: 15px;
+    padding-right: 12px;
+}
